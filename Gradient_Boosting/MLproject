@@ -1,0 +1,16 @@
+name: Project
+
+conda_env: /home/leo/Python/MLFLOW/Gradient_Boosting/conda.yaml
+
+entry_points:
+  main:
+    parameters:
+      estim: {type: int, default: 5}
+      lr: {type: float, default: 0.5}
+      mf: {type: int, default: 10}
+      dep: {type: int, default: 10}
+      rand: {type: int, default: 5}
+    command: "python Gradient_Boosting.py {estim} {lr} {mf} {dep} {rand}"
+       
+       
+       

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/leo/Python/MLFLOW/Gradient_Boosting/mlruns/0/df5583d3ffbc4196b3284dfcb8ffef1a/artifacts
+end_time: 1603808760367
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: df5583d3ffbc4196b3284dfcb8ffef1a
+run_uuid: df5583d3ffbc4196b3284dfcb8ffef1a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1603808757485
+status: 4
+tags: []
+user_id: leo
