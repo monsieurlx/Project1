@@ -1,0 +1,17 @@
+name: Project
+
+conda_env: /home/leo/Python/MLFLOW/Xgboost/conda.yaml
+
+entry_points:
+  main:
+    parameters:
+      gam: {type: float, default: 0.5}
+      lr: {type: float, default: 0.5}
+      dep: {type: int, default: 5}
+      mds: {type: int, default: 5}
+      lb: {type: float, default: 1}
+      al: {type: float, default: 0}
+    command: "python Xgboost.py {gam} {lr} {dep} {mds} {lb} {al}"
+       
+       
+       

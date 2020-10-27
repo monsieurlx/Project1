@@ -1,0 +1,15 @@
+artifact_uri: file:///home/leo/Python/MLFLOW/Xgboost/mlruns/0/caf9dc13fbc0499d8bab3379d99d61b0/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: caf9dc13fbc0499d8bab3379d99d61b0
+run_uuid: caf9dc13fbc0499d8bab3379d99d61b0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1603810931059
+status: 1
+tags: []
+user_id: leo
