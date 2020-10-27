@@ -1,0 +1,13 @@
+name: Project
+
+conda_env: /home/leo/Python/MLFLOW/conda.yaml
+
+entry_points:
+  main:
+    parameters:
+      estim: {type: int, default: 5}
+      rand: {type: int, default: 5}
+    command: "python Random_Forest.py {estim} {rand}"
+       
+       
+       

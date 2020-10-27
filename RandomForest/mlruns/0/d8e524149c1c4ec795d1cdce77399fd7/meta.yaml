@@ -1,0 +1,15 @@
+artifact_uri: file:///home/leo/Python/MLFLOW/RandomForest/mlruns/0/d8e524149c1c4ec795d1cdce77399fd7/artifacts
+end_time: 1603808683871
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: d8e524149c1c4ec795d1cdce77399fd7
+run_uuid: d8e524149c1c4ec795d1cdce77399fd7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1603808665977
+status: 3
+tags: []
+user_id: leo
