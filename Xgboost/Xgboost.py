@@ -29,7 +29,7 @@ def eval_metrics(actual, pred):
     return rmse, mae, r2
     
 
-df = pd.read_csv('/home/leo/Python/MLFLOW/prep_application_train.csv')
+df = pd.read_csv('/home/leo/Python/proj1/prep_application_train.csv')
 
 #Clean the data by replacing NaN with zero
 df2 = np.nan_to_num(df)
@@ -69,12 +69,15 @@ with mlflow.start_run():
     print('Mean Squared Error:', mae)
     print('Root Mean Squared Error:', r2)
     # Log parameter, metrics, and model to MLflow
-    mlflow.log_param("n_estimators", gam)
-    mlflow.log_param("random state", lr)
-    mlflow.log_metric("rmse", dep)
-    mlflow.log_metric("r2", mds)
-    mlflow.log_metric("mae", lb)
-    mlflow.log_metric("r2", al)
+  # mlflow.log_param("gamma", gam)
+  # mlflow.log_param("learning_rate", lr)
+  # mlflow.log_param("max_depth", dep)
+  # mlflow.log_param("max_delta_step", mds)
+  # mlflow.log_param("lambda", lb)
+  # mlflow.log_param("alpha", al)
+    mlflow.log_metric("mae", mae)
+    mlflow.log_metric("r2", r2)
+    mlflow.log_metric("rmse", rmse)
     
     mlflow.sklearn.log_model(xgb_clf, "model")
 
