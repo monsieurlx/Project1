@@ -29,7 +29,7 @@ def eval_metrics(actual, pred):
     return rmse, mae, r2
     
 
-df = pd.read_csv('/home/leo/Python/MLFLOW/prep_application_train.csv')
+df = pd.read_csv('/home/leo/Python/proj1/prep_application_train.csv')
 
 #Clean the data by replacing NaN with zero
 df2 = np.nan_to_num(df)
